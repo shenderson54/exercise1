@@ -1,0 +1,96 @@
+html {
+    font-family: roboto, sans-serif;
+}
+
+body {
+    padding-left: 300px;
+    padding-top: 120px;
+}
+
+#bigBox {
+    background-color:#ed7577;
+    /*display:flex;*/
+    /*align-items:center;*/
+    height: 600px;
+    width: 795px;
+    margin: 40px;
+    position: relative;
+    /*flex-direction: column;*/
+}
+
+#smallBox {
+    background-color: lightgray;
+    /*display: flex;*/
+    /*justify-content:center;
+    margin-top: 70px;*/
+    position:absolute;
+    top: 1%;
+    /*left: .09%;*/
+    /*justify-content: space-around;*/
+    margin: 16%;
+    height:358px;
+    width: 540px;
+    
+}
+
+#account {
+    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-left: 175px;
+    width: 100%
+}
+
+p {
+    font-size: 19px;
+}
+
+#user {
+    /*display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+    padding: 20%, 20%, 35%, 20%;
+    width: 75%;
+    height:
+}*/
+
+    display: flex;
+    flex-direction: column;
+    width:350px;
+    height: 35px;           
+    padding-left: 20%;
+
+}
+input::placeholder {
+    text-indent: 3%;
+    font-size:16px ;
+
+}
+
+#pass {
+    display: flex;
+    flex-direction: column;
+    width:350px;
+    height: 5px;           
+    padding-left: 20%;
+    /*padding-bottom: 20%;*/
+}
+
+.button {
+    background-color: #7dd9d5;
+    margin-bottom: 90px;
+    margin-left: 190px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    border: 10px;
+    width: 150px;
+    color: white;
+    text-align:right;
+    text-decoration: none;
+    height: 50px;
+    font-size: 20px;
+}
+
+#checkBox {
+    padding-left: 20%;
+}
